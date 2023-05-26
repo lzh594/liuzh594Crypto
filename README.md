@@ -14,7 +14,7 @@
 
 + ### 概述：本项目采用==面向对象==编程的方式对本学期实验代码进行整合以及完善，制作了==个人==的密码学库
 
-+ ### [支持github和PyPi](#写在最后)：latest release请关注Github
++ ### [支持github和TestPyPI](#写在最后)：latest release请关注Github
 
 ## 项目目录结构
 
@@ -219,5 +219,5 @@ if __name__ == "__main__":
 
 + ### 本项目已上传至[github](https://github.com/lzh594/liuzh594Crypto)
 
-+ ### 本项目已上传至[PyPi](https://test.pypi.org/project/liuzhCrypto/5.9.4/)
++ ### 本项目已上传至[TestPyPI](https://test.pypi.org/project/liuzhCrypto/5.9.4/)
 
