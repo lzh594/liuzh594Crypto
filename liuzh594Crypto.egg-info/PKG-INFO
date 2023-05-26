@@ -1,3 +1,21 @@
+Metadata-Version: 2.1
+Name: liuzh594Crypto
+Version: 5.9.4
+Summary: my crypto python package in 2023
+Home-page: https://github.com/lzh594/liuzh594Crypto
+Author: Liuzhenghao
+Author-email: liuzh594@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # liuzhCrypto Python 库
 
 ![](https://img.shields.io/badge/University-BUAA-blue)![](https://img.shields.io/badge/Academy-CST-orange)![](https://img.shields.io/badge/Grade-2021-yellow)![](https://img.shields.io/badge/Author-Liuzhenghao-ff69b4)
@@ -219,4 +237,4 @@ if __name__ == "__main__":
 
 + ### 本项目已上传至[github](https://github.com/lzh594/liuzh594Crypto)
 
-+ ### 本项目已上传至[PyPI](https://pypi.org/project/liuzh594Crypto/5.9.4/)
++ ### 本项目已上传至[PyPI](https://pypi.org)
