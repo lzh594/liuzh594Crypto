@@ -14,7 +14,7 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setuptools.setup(
-    name="liuzhCrypto",
+    name="liuzh594Crypto",
     version="5.9.4",
     author="Liuzhenghao",
     author_email="liuzh594@qq.com",

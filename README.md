@@ -12,14 +12,14 @@
 
 + ### 作者：BUAA-网络空间安全学院2021级-21371445-刘征昊
 
-+ ### 概述：本项目采用==面向对象==编程的方式对本学期实验代码进行整合以及完善，制作了==个人==的密码学库
++ ### 概述：本项目采用**面向对象**编程的方式对本学期实验代码进行整合以及完善，制作了**个人**的密码学库
 
 + ### [支持github和PyPI](#写在最后)：latest release请关注Github
 
 ## 项目目录结构
 
 ```bash
-liuzhCrypto
+liuzh594Crypto
 ├── README.md
 ├── __init__.py
 ├── basicMath  # 基础数学库
@@ -41,9 +41,9 @@ liuzhCrypto
 ├── digitalSignature # 数字签名算法库
 │   └── __init__.py
 │   ├── SM2_SV.py
-├── liuzhCrypto.egg-info
+├── liuzh594Crypto.egg-info
 ├── dist
-│   └── liuzhCrypto-5.9.4.tar.gz
+│   └── liuzh594Crypto-5.9.4.tar.gz
 ├── tests # mycrypto完整版测试样例
 │   └── tests.py 
 └── setup.py
@@ -142,13 +142,13 @@ liuzhCrypto
 + ### mac/Linux：
 
     ```bash
-    python3 -m pip install liuzhCrypto
+    python3 -m pip install liuzh594Crypto
     ```
 
 + ### windows：
 
     ```bash
-    python -m pip install liuzhCrypto
+    python -m pip install liuzh594Crypto
     ```
 
     + ##### 对于 POSIX 用户（包括 macOS 和 Linux 用户）本指南中的示例假定使用了 [virtual environment/pyenv]。对于 Windows 用户，本指南中的示例假定在安装 Python 时选择了修改系统 PATH 环境变量。

@@ -4,7 +4,7 @@ Time:     2023/5/20 13:14
 Author:   刘征昊(£·)
 Version:  V 1.1
 File:     tests.py
-Describe: This is the test samples of liuzhCrypto!
+Describe: This is the test samples of liuzh594Crypto!
 """
 from liuzhCrypto.basicMath.ECC import *
 from liuzhCrypto.basicMath.GF import *
