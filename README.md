@@ -44,7 +44,7 @@ liuzh594Crypto
 ├── liuzh594Crypto.egg-info
 ├── dist
 │   └── liuzh594Crypto-5.9.4.tar.gz
-├── tests # mycrypto完整版测试样例
+├── tests # liuzh594crypto完整版测试样例
 │   └── tests.py 
 └── setup.py
 ```
@@ -65,7 +65,7 @@ liuzh594Crypto
 
     + #### [有限域GF(2^8)上的数学运算](./basicMath/GF.py)
 
-        + ##### 支持有限域$GF(2^8)$上的常见数学运算，如：四则运算、逆元、矩阵运算等
+        + ##### 支持有限域GF(2^8)上的常见数学运算，如：四则运算、逆元、矩阵运算等
 
     + #### [本密码学库涉及到的类型转换等操作](./basicMath/type.py)
 
@@ -192,7 +192,6 @@ if __name__ == "__main__":
     digitalSignature测试样例
     """
     SM2_SV_text()
-
 ```
 
 
