@@ -1,0 +1,239 @@
+Metadata-Version: 2.1
+Name: liuzh594Crypto
+Version: 5.9.4.99.9
+Summary: my crypto python package in 2023
+Home-page: https://github.com/lzh594/liuzh594Crypto
+Author: Liuzhenghao
+Author-email: liuzh594@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# liuzhCrypto Python 库
+
+![](https://img.shields.io/badge/University-BUAA-blue)![](https://img.shields.io/badge/Academy-CST-orange)![](https://img.shields.io/badge/Grade-2021-yellow)![](https://img.shields.io/badge/Author-Liuzhenghao-ff69b4)
+
+![](https://img.shields.io/badge/Course-Crypto2023-lightgrey)![](https://img.shields.io/badge/Name-liuzhCrypto-green)![](https://img.shields.io/badge/Version-5.9.4-blueviolet)![](https://img.shields.io/badge/Date-2023--05--26-critical)
+
+
+
+## 项目介绍
+
++ ### 性质：本项目是[BUAA](www.buaa.edu.cn)-网络空间安全学院-2023年春季密码学实验课程大作业
+
++ ### 作者：BUAA-网络空间安全学院2021级-21371445-刘征昊
+
++ ### 概述：本项目采用**面向对象**编程的方式对本学期实验代码进行整合以及完善，制作了**个人**的密码学库
+
++ ### [支持github和PyPI](#写在最后)：latest release请关注Github
+
+## 项目目录结构
+
+```bash
+liuzh594Crypto
+├── README.md
+├── __init__.py
+├── basicMath  # 基础数学库
+│   ├── __init__.py
+│   ├── ECC.py
+│   ├── GF.py
+│   ├── basic.py
+│   └── type.py
+├── blockCipher # 分组密码学库
+│   ├── __init__.py
+│   ├── SM4.py
+├── pubkeyCipher # 公钥密码学库
+│   └── __init__.py
+│   ├── RSA.py
+│   ├── SM2.py
+├── hash # 哈希算法库
+│   ├── __init__.py
+│   ├── SM3.py
+├── digitalSignature # 数字签名算法库
+│   └── __init__.py
+│   ├── SM2_SV.py
+├── liuzh594Crypto.egg-info
+├── dist
+│   └── liuzh594Crypto-5.9.4.tar.gz
+├── tests # liuzh594crypto完整版测试样例
+│   └── tests.py 
+└── setup.py
+```
+
+
+
+## 项目功能
+
++ ### [基础数学库](./basicMath):
+
+    + #### [密码学数学运算](./basicMath/basic.py)
+
+        + ##### 支持欧拉算法、模逆运算、快速（模）幂（矩阵）运算、素数生成与检验和中国剩余定理等一系列密码学基础数学运算
+
+    + #### [椭圆曲线上的数学运算](./basicMath/ECC.py)
+
+        + ##### 支持椭圆曲线密码学所需的常见数学运算，如：椭圆曲线上的点的加减法和倍点运算，其中倍点运算支持double-and-add、NAF以及w-NAF三种方法
+
+    + #### [有限域GF(2^8)上的数学运算](./basicMath/GF.py)
+
+        + ##### 支持有限域GF(2^8)上的常见数学运算，如：四则运算、逆元、矩阵运算等
+
+    + #### [本密码学库涉及到的类型转换等操作](./basicMath/type.py)
+
+        + ##### 自定义了一系列本项目其他文件所需的变量类型
+
+        + ##### 支持十六进制、字节串、字符串、整数、椭圆曲线上的点等变量类型之间的相互转化
+
++ ### [对称密码学/分组密码学库](./blockCipher)
+
+    + #### [SM4分组密码](./blockCipher/SM4.py)
+
+        + ##### SM4支持分组长度128比特，密钥长度128比特的分组密码加解密运算
+
+        + ##### 支持SM4的ECB和CBC的分组密码工作模式
+
+        + ##### 支持基于ECB或CBC工作模式的对文件的加解密处理
+
++ ### [非对称密码学/公钥密码学库](./pubkeyCipher)
+
+    + #### [RSA公钥密码](./pubkeyCipher/RSA.py)
+
+        + ##### 支持RSA密钥参数的生成
+
+        + ##### 支持RSA的加解密运算
+
+    + #### [SM2椭圆曲线公钥密码:公钥加密算法](./pubkeyCipher/SM2.py)
+
+        + ##### 支持杂凑函数为SM3（可替换）的SM2公钥加密算法
+
++ ### [哈希算法/杂凑函数库](./hash)
+
+    + #### [SM3密码杂凑算法](./hash/SM3.py)
+
+        + ##### 支持输出长度为256比特的消息摘要，消息摘要的输出类型包括十六进制字符串以及字节串两种类型
+
+        + ##### 支持对文件的消息摘要生成
+
++ ### [数字签名算法](./digitalSignature)
+
+    + #### [SM2椭圆曲线公钥密码：数字签名算法](./digitalSignature/SM2_SV.py)
+
+        + ##### 支持基于椭圆曲线的数字签名算法SM2
+
+
+
+## 项目特色
+
++ ### 面向对象的编程方式
+
+    + ##### 当然作为初学者，本项目只是基本完成了面向对象的思想，与真正完整的面向对象编程仍然有很大的差距，假期会继续学习，加深对面向对象编程的理解和掌握
+
++ ### 编写大量注释，便于使用与理解
+
+    + ##### 详情见代码
+
++ ### 支持算法错误检查:
+
+    + ##### 密钥长度检查
+
+    + ##### 算法内部错误
+
+    + ##### ... ...
+
++ ### 对函数接口变量进行了类型指定， 支持输入类型检查
+
++ ### 提供大量[测试样例](#项目样例)，覆盖功能全面
+
++ ### 使用setup.py对项目文件进行了[打包](./dist)
+
+
+
+## 项目安装：
+
++ ### mac/Linux：
+
+    ```bash
+    python3 -m pip install liuzh594Crypto
+    ```
+
++ ### windows：
+
+    ```bash
+    python -m pip install liuzh594Crypto
+    ```
+
+    + ##### 对于 POSIX 用户（包括 macOS 和 Linux 用户）本指南中的示例假定使用了 [virtual environment/pyenv]。对于 Windows 用户，本指南中的示例假定在安装 Python 时选择了修改系统 PATH 环境变量。
+
+## 项目样例
+
++ ### 源码详见[完整版测试样例](./tests/tests.py)
+
++ ### 在主程序部分可以根据测试者的需求，添加或减少注释函数进行部分测试
+
+```python
+if __name__ == "__main__":
+    """
+    可以根据测试需求进行代码注释部分的添加与解除
+    """
+    """
+    basicMath测试样例
+    """
+    basic_test()
+    type_test()
+  	ECC_test()
+    GF_test()
+
+    """
+    blockCipher测试样例
+    """
+    SM4_test()
+
+    """
+    pubkeyCipher测试样例
+    """
+    RSA_test()
+    SM2_test()
+
+    """
+    hash测试样例
+    """
+    SM3_test()
+
+    """
+    digitalSignature测试样例
+    """
+    SM2_SV_text()
+```
+
+
+
+## 写在最后
+
++ ### 本项目的工作量主要来自于
+
+    + ##### 项目库的搭建
+
+    + ##### 文档的编写
+
+    + ##### 代码的整合
+
+    + ##### 函数接口设置
+
+    + ##### 错误处理
+
+    + ##### 测试样例
+
+    + ##### 注释
+
+    + ##### ... ...
+
++ ### 本项目已上传至[github](https://github.com/lzh594/liuzh594Crypto)
+
++ ### 本项目已上传至[PyPI](https://pypi.org/project/liuzh594Crypto/5.9.4/)
