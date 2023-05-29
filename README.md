@@ -169,7 +169,7 @@ if __name__ == "__main__":
     """
     basic_test()
     type_test()
-  	ECC_test()
+    ECC_test()
     GF_test()
 
     """
