@@ -6,8 +6,8 @@ Version:  V 1.1
 File:     ECC.py
 Describe: 
 """
-from basic import invmod
-from type import TYPEPOINT, type_check
+from liuzh594Crypto.basicMath.basic import invmod
+from liuzh594Crypto.basicMath.type import TYPEPOINT, type_check
 
 # 无穷远点
 NULL_POINT: TYPEPOINT = (0, 0)
