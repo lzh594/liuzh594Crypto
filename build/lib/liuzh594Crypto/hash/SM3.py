@@ -7,8 +7,8 @@ File:     SM3.py
 Describe: 
 """
 
-from basicMath.basic import rot_shift
-from basicMath.type import byte2int, int2byte, HEXSTR, BYTESDIGEST, HEXSTRDIGEST, type_check
+from liuzh594Crypto.basicMath.basic import rot_shift
+from liuzh594Crypto.basicMath.type import byte2int, int2byte, HEXSTR, BYTESDIGEST, HEXSTRDIGEST, type_check
 
 # 初始寄存器向量
 IV: list[int] = [0x7380166f, 0x4914b2b9, 0x172442d7, 0xda8a0600, 0xa96f30bc, 0x163138aa, 0xe38dee4d, 0xb0fb0e4e]

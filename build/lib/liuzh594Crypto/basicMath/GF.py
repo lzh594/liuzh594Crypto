@@ -6,7 +6,7 @@ Version:  V 1.1
 File:     GF.py
 Describe: GF(2^8)有限域上的基础运算
 """
-from basicMath.type import type_check, TYPEMATRIX
+from type import type_check, TYPEMATRIX
 
 
 def add_minus_GF(a: int, b: int) -> int:

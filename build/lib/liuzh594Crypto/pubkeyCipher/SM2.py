@@ -7,9 +7,9 @@ File:     SM2.py
 Describe: 
 """
 from math import ceil, floor, log
-from basicMath.ECC import Curve
-from basicMath.type import int2byte, byte2int, point2byte, byte2point, TYPEPOINT, type_check
-from hash.SM3 import SM3
+from liuzh594Crypto.basicMath.ECC import Curve
+from liuzh594Crypto.basicMath.type import int2byte, byte2int, point2byte, byte2point, TYPEPOINT, type_check
+from liuzh594Crypto.hash.SM3 import SM3
 
 class SM2:
     """

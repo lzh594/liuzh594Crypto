@@ -8,8 +8,8 @@ Describe:
 """
 import os.path
 
-from basicMath.basic import rot_shift
-from basicMath.type import HEXSTR, byte2hex, hex2byte, byte2int, TYPESM4, type_check
+from liuzh594Crypto.basicMath.type import HEXSTR, byte2hex, hex2byte, byte2int, TYPESM4, type_check
+from liuzh594Crypto.basicMath.basic import rot_shift
 
 # 工作模式加解密选择
 ENCRYPT: TYPESM4 = 1

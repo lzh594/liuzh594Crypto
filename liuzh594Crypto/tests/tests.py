@@ -6,15 +6,15 @@ Version:  V 1.1
 File:     tests.py
 Describe: This is the test samples of liuzh594Crypto!
 """
-from basicMath.ECC import *
-from basicMath.GF import *
-from basicMath.basic import *
-from basicMath.type import *
-from blockCipher.SM4 import *
-from digitalSignature.SM2_SV import *
-from hash.SM3 import *
-from pubkeyCipher.RSA import *
-from pubkeyCipher.SM2 import *
+from liuzh594Crypto.basicMath.ECC import *
+from liuzh594Crypto.basicMath.GF import *
+from liuzh594Crypto.basicMath.basic import *
+from liuzh594Crypto.basicMath.type import *
+from liuzh594Crypto.blockCipher.SM4 import *
+from liuzh594Crypto.digitalSignature.SM2_SV import *
+from liuzh594Crypto.hash.SM3 import *
+from liuzh594Crypto.pubkeyCipher.RSA import *
+from liuzh594Crypto.pubkeyCipher.SM2 import *
 
 
 def basic_test():

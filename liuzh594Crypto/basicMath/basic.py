@@ -9,7 +9,7 @@ Describe: 基础运算
 from functools import reduce
 from random import randint
 
-from basicMath.type import type_check, TYPEMATRIX
+from type import type_check, TYPEMATRIX
 
 
 def Egcd(a: int, b: int) -> list:
