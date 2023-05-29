@@ -3,3 +3,4 @@ blockCipher
 digitalSignature
 hash
 pubkeyCipher
+tests

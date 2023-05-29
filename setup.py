@@ -15,10 +15,10 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setuptools.setup(
     name="liuzh594Crypto",
-    version="5.9.4.9.9.9",
+    version="5.9.4.9.99",
     author="Liuzhenghao",
     author_email="liuzh594@qq.com",
-    description="my crypto python package in 2023",
+    description="my hcrypto python package in 2023",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/lzh594/liuzh594Crypto",
