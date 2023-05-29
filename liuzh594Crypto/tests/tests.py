@@ -288,9 +288,9 @@ if __name__ == "__main__":
     """
     hash测试样例
     """
-    # SM3_test()
+    SM3_test()
 
     """
     digitalSignature测试样例
     """
-    SM2_SV_text()
+    # SM2_SV_text()
