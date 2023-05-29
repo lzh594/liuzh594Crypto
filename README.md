@@ -218,4 +218,4 @@ if __name__ == "__main__":
 
 + ### 本项目已上传至[github](https://github.com/lzh594/liuzh594Crypto)
 
-+ ### 本项目已上传至[PyPI](https://pypi.org/project/liuzh594Crypto/5.9.4/)
++ ### 本项目已上传至[PyPI](https://pypi.org/project/liuzh594Crypto)
