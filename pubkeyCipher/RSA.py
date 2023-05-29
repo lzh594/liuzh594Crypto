@@ -8,8 +8,8 @@ Describe:
 """
 from math import gcd
 
-from liuzhCrypto.basicMath.basic import get_prime, invmod, fast_power, crt
-from liuzhCrypto.basicMath.type import byte2int, int2byte, len_bytes, type_check
+from basicMath.basic import get_prime, invmod, fast_power, crt
+from basicMath.type import byte2int, int2byte, len_bytes, type_check
 
 
 class RSAkeyParam:

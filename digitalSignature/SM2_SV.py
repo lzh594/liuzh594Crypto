@@ -7,10 +7,10 @@ File:     SM2_SV.py
 Describe: 
 """
 from math import ceil, log
-from liuzhCrypto.basicMath.ECC import Curve, TYPEPOINT
-from liuzhCrypto.basicMath.basic import invmod
-from liuzhCrypto.basicMath.type import int2byte, type_check, byte2int
-from liuzhCrypto.hash.SM3 import SM3
+from basicMath.ECC import Curve, TYPEPOINT
+from basicMath.basic import invmod
+from basicMath.type import int2byte, type_check, byte2int
+from hash.SM3 import SM3
 
 
 class SM2_SV:

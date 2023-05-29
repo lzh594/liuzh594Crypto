@@ -7,12 +7,9 @@ File:     SM2.py
 Describe: 
 """
 from math import ceil, floor, log
-
-from libnum import ecc
-
-from liuzhCrypto.basicMath.ECC import Curve
-from liuzhCrypto.basicMath.type import int2byte, byte2int, point2byte, byte2point, TYPEPOINT, type_check, str2byte,byte2hex
-from liuzhCrypto.hash.SM3 import SM3
+from basicMath.ECC import Curve
+from basicMath.type import int2byte, byte2int, point2byte, byte2point, TYPEPOINT, type_check
+from hash.SM3 import SM3
 
 class SM2:
     """

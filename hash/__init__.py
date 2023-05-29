@@ -3,7 +3,7 @@
 Time:     2023/5/19 00:00
 Author:   刘征昊(£·)
 Version:  V 1.1
-File:     __init__.py.py
+File:     __init__.py
 Describe: 
 """
 
