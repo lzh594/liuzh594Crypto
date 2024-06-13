@@ -15,7 +15,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setuptools.setup(
     name="liuzh594Crypto",
-    version="5.9.4.999.1",
+    version="5.9.4.999.99",
     author="Liuzhenghao",
     author_email="liuzh594@qq.com",
     description="my crypto python package in 2023",
