@@ -179,7 +179,7 @@ def RSA_test():
     # 生成公钥
     print(rsa.param.get_pvtkey())
     # RSA加密
-    en = rsa.encrypt(str2byte("haha,I'm lzh.I'm falling love with wyz!"))
+    en = rsa.encrypt(str2byte("haha,I'm lzh!"))
     print(byte2hex(en, len(en) * 2))
     # RSA解密
     de = rsa.decrypt(en)
@@ -201,7 +201,7 @@ def SM2_test():
     n = 0x8542D69E4C044F18E8B92435BF6FF7DD297720630485628D5AE74EE7C32E79B7
     sm2 = SM2(G, curve, n)
     # SM2加密
-    M = str2byte("hello,wyz.I'm Lzh")
+    M = str2byte("hello.I'm Lzh")
     k = 0x4C62EEFD6ECFC2B95B92FD6C3D9575148AFA17425546D49018E5388D49DD7B4F
     PB = (0x435B39CCA8F3B508C1488AFC67BE491A0F7BA07E581A0E4849A5CF70628A7E0A,
           0x75DDBA78F15FEECB4C7895E2C1CDF5FE01DEBB2CDBADF45399CCF77BBA076A42)
@@ -219,7 +219,7 @@ def SM3_test():
     :return:
     """
     # 创建SM3实例
-    M = str2byte("the missed love... ---Lzh&wyz")
+    M = str2byte("the missed")
     sm3 = SM3(M)
     # 输出字节串消息摘要
     print(sm3.digest())
@@ -288,8 +288,8 @@ if __name__ == "__main__":
     """
     hash测试样例
     """
-    SM3_test()
-
+    # SM3_test()
+    print(crt([3, 7, 26], [11, 19, 37]))
     """
     digitalSignature测试样例
     """
